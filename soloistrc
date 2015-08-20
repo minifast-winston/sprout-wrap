@@ -22,13 +22,6 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
-- sprout-postgresql
-
-# apps
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
 
 # apps (editors)
 - sprout-osx-apps::sublime_text
@@ -37,7 +30,7 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: ministryofvelocity.com.com
+      domain: ministryofvelocity.com
       authors:
         - initials: dr
           name: Doc Ritezel
@@ -52,31 +45,3 @@ node_attributes:
       clear_apps: true
       tile_size: 35
       magnification: false
-    homebrew:
-      formulae:
-        - ctags-exuberant
-        - ag
-        - chromedriver
-        - imagemagick
-        - node
-        - htop
-        - ack
-        - qt
-        - ssh-copy-id
-        - tmux
-        - tree
-        - watch
-        - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
-      casks:
-        - ccmenu
-        - firefox
-        - gitx-rowanj
-        - github
-        - google-chrome
-        - google-drive
-        - google-hangouts
-        - slack
-        - xquartz
-        - xscope
