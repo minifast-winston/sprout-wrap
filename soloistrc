@@ -39,10 +39,6 @@ recipes:
 - sprout-rbenv
 - sprout-ruby
 
-# apps (editors)
-- sprout-osx-apps::sublime_text
-- sprout-osx-apps::macvim
-
 node_attributes:
   sprout:
     git:
