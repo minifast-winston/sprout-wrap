@@ -36,7 +36,6 @@ recipes:
 - sprout-git::git_scripts
 
 # development (rails)
-- sprout-rbenv
 - sprout-ruby
 
 node_attributes:
